@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome to the Courses</title>
+    <style>
+      body
+      {
+        padding: 0;
+        margin: 0;
+      }
+
+      .main-page
+      {
+          /*background-color: black;*/
+          margin: 15px;
+          padding: 10px;
+      }
+
+      h1
+      {
+          color: yellow;
+          font-size: 50px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          overflow: hidden;
+      }
+    </style>
+  </head>
+  <div class="main-page">
+    <div class="form">
+      <h2>Login Page</h2>
+      <form class="login-menu" method="POST" action="./login">
+        <input type="text" name="loginName" placeholder="User name"></input>
+        <input type="password" name="userPassword" placeholder="Password"></input>
+        <input type="submit" name="submit"></input>
+      </form>
+      <a href="./signup">Sign Up</a>
+    </div>
+  </div>
+</html>
