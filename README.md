@@ -2,3 +2,5 @@
 ## Things that I would like to share
 
 ## Livesport App -> Back-end 
+### To get list of promotions:
+`/getPromotions`
