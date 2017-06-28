@@ -5,9 +5,9 @@
 To get list of promotions:
 `/getPromotions`
 
+
 To add user:
 `/addUser` + JSON with **loginType**, which can be ['fb','twitter', 'google'] and **accessToken**
-
 (you will receive user ID back)
 
 
