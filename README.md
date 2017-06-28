@@ -17,3 +17,7 @@ To get user
 
 To add notes:
 `/addNote` + JSON with **title**,	**description**, **userID** - int, time - int
+
+
+To get notes:
+`/getNotes` 
