@@ -13,3 +13,7 @@ To add user:
 
 To get user
 `/getUser/some id`
+
+
+To add notes:
+`/addNote` + JSON with **title**,	**description**, **userID** - int, time - int
