@@ -8,7 +8,7 @@ To get list of promotions:
 
 To add user:
 `/addUser` + JSON with **logintype**, which can be ['fb','twitter', 'google'] and **accesstoken**
-(you will receive user ID back)
+(you will receive user `id` back)
 
 
 To get user
