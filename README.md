@@ -7,7 +7,7 @@ To get list of promotions:
 
 
 To add user:
-`/addUser` + JSON with **loginType**, which can be ['fb','twitter', 'google'] and **accessToken**
+`/addUser` + JSON with **logintype**, which can be ['fb','twitter', 'google'] and **accesstoken**
 (you will receive user ID back)
 
 
@@ -16,7 +16,7 @@ To get user
 
 
 To add notes:
-`/addNote` + JSON with **title**,	**description**, **userID** - int, time - int
+`/addNote` + JSON with **title**,	**description**, **userid** - int, time - int
 
 
 To get notes:
